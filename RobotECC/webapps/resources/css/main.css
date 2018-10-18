@@ -1,0 +1,48 @@
+.upload-btn-wrapper label {
+  min-width: 7em;
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+  padding: .7em 2em; }
+.upload-btn-wrapper input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  visibility: hidden; }
+
+.form-file, #repuestafile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 90vh; }
+  
+  
+ .tablescripts{
+	min-width: 100%;
+	text-align: center;
+	margin-top: 20px;
+  }
+.tablescripts td{
+	font-size:12px;
+	padding:.5em 0;
+}
+#ejecutando{
+	margin-top:15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+	flex-direction: column;
+}
+.bg-dark {
+    background-color: #044a87 !important;
+}
+.table-dark {
+    color: #fff;
+    background-color: #044a87;
+}
+table thead{
+border-bottom: 1px solid;	
+}
+/*# sourceMappingURL=main.css.map */
